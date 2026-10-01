@@ -57,7 +57,7 @@ class OverlayService : Service() {
             300, 300,
             layoutParamsType,
             WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
-            PixelFormat.TRANSLATION
+            PixelFormat.TRANSLUCENT
         ).apply {
             gravity = Gravity.TOP or Gravity.START
             x = 100
